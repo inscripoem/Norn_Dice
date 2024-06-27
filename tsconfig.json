@@ -23,6 +23,6 @@
     "src/**/*.json"
   ],
   "paths": {
-    "@snakelet/koishi-plugin-norn-dice/*": ["src/*"]
+    "@snakelet/koishi-plugin-norn-dice": ["src/*"]
   }
 }

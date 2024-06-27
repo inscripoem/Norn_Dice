@@ -27,7 +27,7 @@ export function coc(ctx: Context, config: Config) {
 
         // 日志输出
         // log_catch.info((_.guildId == undefined ? "personal" : _.guildId) + " => " + _.username + "(" + _.userId + ") : \n" + _.content)
-
+        
         var message = ""
 
         // 有艾特，不是自己，走
