@@ -1,12 +1,13 @@
 {
-  "name": "@snakelet/koishi-plugin-norn-dice",
-  "description": "蛇骰",
-  "version": "0.2.33",
+  "name": "@inscripoem/koishi-plugin-norn-dice",
+  "description": "（第三方开发分支）蛇骰",
+  "version": "0.2.34",
   "contributors": [
     "Snake <1059648351@qq.com>",
-    "jingming295 <jingming295@gmail.com>"
+    "jingming295 <jingming295@gmail.com>",
+    "inscripoem <changxuben@gmail.com>"
   ],
-  "homepage": "https://github.com/snakelet-Ling/Norn_Dice",
+  "homepage": "https://github.com/inscripoem/Norn_Dice",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "files": [
@@ -25,5 +26,12 @@
   "peerDependencies": {
     "koishi": "^4.16.8",
     "koishi-plugin-adapter-onebot": "^6.4.0"
+  },
+  "koishi": {
+    "description": {
+      "en": "(forked) dice",
+      "zh": "（第三方开发分支）蛇骰"
+    },
+    "preview": true
   }
 }
